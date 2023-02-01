@@ -3,3 +3,45 @@ body{
     padding: 0;
     font-family: "Helvetica", Sans-Serif;
 }
+
+.game-container{
+    display: flex;
+    gap: 80px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text-container h1{
+    text-align: center;
+    margin-top: 0;
+}
+
+.input-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container{
+    flex: 0 0 auto;
+}
+
+.grid-container{
+    flex: 0 1 960px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-col{
+    flex: 1;
+    display: flex;
+}
+
+.grid-items{
+    flex: 1;
+    border: 1px solid black;
+}
